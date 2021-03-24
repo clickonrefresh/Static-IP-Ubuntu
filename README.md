@@ -23,6 +23,7 @@ cp /etc/netplan/00-installer-config.yaml /etc/netplan/00-installer-config.yaml.b
 
 
 Now edit the default file to resemble the following configuration, adjusting the addresses to your IP's used.
+
 *Type 'ip a' to find the name of your network adapter and replace it in 'eth0'
 
 
