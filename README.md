@@ -41,7 +41,7 @@ network:
 ![image](https://user-images.githubusercontent.com/72121107/112372485-87962f00-8ce8-11eb-8846-7abb66d28f21.png)
 
 
-Save the file and exit.
+Save the file and exit. "Ctrl+o" , 'enter' , "Ctrl+x"
 
 Try the configuration to see if works
 
