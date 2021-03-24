@@ -58,7 +58,7 @@ ________________________________________________________________________________
 sudo netplan try
 ```
 
-### If successful you will be asked if you want to keep the settings.
+### If successful you will be asked if you want to keep the settings. Press 'enter' to accept.
 
 #### Now apply the change and reboot.
 
