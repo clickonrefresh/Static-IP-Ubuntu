@@ -14,13 +14,17 @@ Your output should look something like this:
 
 ![image](https://user-images.githubusercontent.com/72121107/112372389-66354300-8ce8-11eb-801e-788bbe6fdc89.png)
 
+
 Create a backup of the default file, replace '00-installer-config.yaml with your filename.
 
 ```text
 cp /etc/netplan/00-installer-config.yaml /etc/netplan/00-installer-config.yaml.bak
 ```
 
+
 Now edit the default file to resemble the following configuration, adjusting the addresses to your IP's used.
+*Type 'ip a' to find the name of your network adapter and replace it in 'eth0'
+
 
 ```text
 sudo nano /etc/netplan/00-installer-config.yaml
@@ -42,6 +46,8 @@ network:
 
 
 Save the file and exit. "Ctrl+o" , 'enter' , "Ctrl+x"
+
+
 
 Try the configuration to see if works
 
