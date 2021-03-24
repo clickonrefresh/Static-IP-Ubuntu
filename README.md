@@ -12,7 +12,7 @@ ll
 
 Your output should look something like this:
 
-![](../.gitbook/assets/list-networkconfig.png)
+[image](https://user-images.githubusercontent.com/72121107/112372389-66354300-8ce8-11eb-801e-788bbe6fdc89.png)
 
 Create a backup of the default file, replace '00-installer-config.yaml with your filename.
 
@@ -38,7 +38,8 @@ network:
         addresses: [1.1.1.1, 1.0.0.1]
 ```
 
-![](../.gitbook/assets/netyasml.png)
+![image](https://user-images.githubusercontent.com/72121107/112372485-87962f00-8ce8-11eb-8846-7abb66d28f21.png)
+
 
 Save the file and exit.
 
