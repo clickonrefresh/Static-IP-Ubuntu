@@ -4,7 +4,7 @@ How to configure a static IP in Ubuntu CL
 
 ### Navigate to the network config file in /etc/netplan, then list the files in that folder.
 
-```text
+```code
 cd /etc/netplan
 ll
 ```
@@ -18,7 +18,7 @@ ________________________________________________________________________________
 
 ### Create a backup of the default file, replace '00-installer-config.yaml with your filename.
 
-```text
+```
 cp /etc/netplan/00-installer-config.yaml /etc/netplan/00-installer-config.yaml.bak
 ```
 
@@ -29,11 +29,11 @@ ________________________________________________________________________________
 ``` Type 'ip a' to find the name of your network adapter and replace it in 'eth0' ```
 
 
-```text
+```
 sudo nano /etc/netplan/00-installer-config.yaml
 ```
 
-```text
+```
 # This is the network config written by 'subiquity', manually ammended for static IP.
 network:
   version: 2
@@ -54,7 +54,7 @@ ________________________________________________________________________________
 
 ### Try the configuration to see if works
 
-```text
+```
 sudo netplan try
 ```
 
@@ -62,7 +62,7 @@ sudo netplan try
 
 #### Now apply the change and reboot.
 
-```text
+```
 sudo netplan apply
 sudo init 6
 ```
