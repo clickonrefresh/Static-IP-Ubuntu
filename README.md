@@ -12,7 +12,7 @@ ll
 
 Your output should look something like this:
 
-[image](https://user-images.githubusercontent.com/72121107/112372389-66354300-8ce8-11eb-801e-788bbe6fdc89.png)
+![image](https://user-images.githubusercontent.com/72121107/112372389-66354300-8ce8-11eb-801e-788bbe6fdc89.png)
 
 Create a backup of the default file, replace '00-installer-config.yaml with your filename.
 
